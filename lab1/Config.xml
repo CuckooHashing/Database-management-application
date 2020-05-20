@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <StudiosAnime>
+      <SQLStudiosAnime ID="getParent">
+        <!--SELECT * FROM Studios-->
+      </SQLStudiosAnime>
+      <SQLStudiosAnime ID="getChild">
+        <!--SELECT * FROM Anime WHERE STID=-->
+      </SQLStudiosAnime>
+      <SQLStudiosAnime ID="deleteChild">
+        <!--DELETE FROM Anime WHERE AID = -->
+      </SQLStudiosAnime>
+      <SQLStudiosAnime ID="countChild">
+        <!--SELECT COUNT(*) FROM Anime-->
+      </SQLStudiosAnime>
+    <SQLStudiosAnime ID="addChild">
+      <!--INSERT INTO Anime(AID, Title, Movie, EpisodeCount, MID, Rating, STID) VALUES(-->
+    </SQLStudiosAnime>
+  </StudiosAnime>
+  <ComposersOST>
+    <SQLComposersOST ID="getParent">
+      <!--SELECT * FROM Composers-->
+    </SQLComposersOST>
+    <SQLComposersOST ID="getChild">
+      <!--SELECT * FROM OST WHERE CID=-->
+    </SQLComposersOST>
+    <SQLComposersOST ID="deleteChild">
+      <!--DELETE FROM OST WHERE AID = -->
+    </SQLComposersOST>
+    <SQLComposersOST ID="countChild">
+      <!--SELECT COUNT(*) FROM OST-->
+    </SQLComposersOST>
+    <SQLComposersOST ID="addChild">
+      <!--INSERT INTO OST(CHID, Lengthy, Genre, Album, CID) VALUES (-->
+    </SQLComposersOST>
+  </ComposersOST>
+</configuration>
